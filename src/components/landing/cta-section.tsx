@@ -23,7 +23,7 @@ export function StatsSection({ dict }: { dict: Dictionary }) {
                 {s.value}
               </p>
               <p className="mt-2 text-base font-medium text-t">{s.label}</p>
-              <p className="mt-1 text-xs text-t3">{s.source}</p>
+              {s.source && <p className="mt-1 text-xs text-t3">{s.source}</p>}
             </div>
           ))}
         </div>
