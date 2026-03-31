@@ -1,9 +1,9 @@
 const en = {
   meta: {
     title: "4ratio - Know Your Real Price. Make Real Profit.",
-    description: "Stop guessing your price. Calculate your real cost, break-even point, and optimal price in 5 minutes. Built for service-based SMBs in 20+ countries.",
+    description: "Stop guessing your price. Calculate your real cost, break-even point, and optimal price in 5 minutes. Built for service and product businesses in 20+ countries.",
     calculatorTitle: "Pricing Calculator - 4ratio",
-    calculatorDescription: "Calculate your real cost, break-even price, and optimal margin. Free pricing calculator for service businesses worldwide.",
+    calculatorDescription: "Calculate your real cost, break-even price, and optimal margin. Free pricing calculator for service and product businesses worldwide.",
   },
   nav: {
     logo: "4ratio",
@@ -14,7 +14,7 @@ const en = {
   hero: {
     headline: "You're probably selling at a loss.",
     headlineBold: "Let's fix that.",
-    subheadline: "89% of service businesses don't know their real cost. They work hard, revenue looks good, but the bank account never grows. Sound familiar?",
+    subheadline: "89% of businesses don't know their real cost. They work hard, revenue looks good, but the bank account never grows. Sound familiar?",
     cta: "Calculate My Real Price — Free",
     badge: "Free. No signup. 5 minutes.",
     valueProp1: "Real cost breakdown",
@@ -23,7 +23,7 @@ const en = {
   },
   problem: {
     title: "Why you're not making money",
-    subtitle: "It's not that you're bad at business. It's that pricing is broken.",
+    subtitle: "It's not that you're bad at business. It's that pricing is the blind spot of 9 out of 10 companies.",
     card1Title: "You're guessing",
     card1Text: "You set prices based on gut feeling or copying competitors. Neither accounts for YOUR costs. A price that works for them might be killing you.",
     card2Title: "Costs you can't see",

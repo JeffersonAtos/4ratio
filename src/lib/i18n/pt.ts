@@ -3,9 +3,9 @@ import type { Dictionary } from "./en";
 const pt: Dictionary = {
   meta: {
     title: "4ratio - Saiba Seu Preço Real. Tenha Lucro Real.",
-    description: "Pare de chutar seu preço. Calcule seu custo real, ponto de equilíbrio e preço ideal em 5 minutos. Feito para PMEs de serviços em 20+ países.",
+    description: "Pare de chutar seu preço. Calcule seu custo real, ponto de equilíbrio e preço ideal em 5 minutos. Feito para PMEs de serviços e produtos em 20+ países.",
     calculatorTitle: "Calculadora de Preços - 4ratio",
-    calculatorDescription: "Calcule seu custo real, preço de equilíbrio e margem ideal. Calculadora de preços gratuita para empresas de serviços.",
+    calculatorDescription: "Calcule seu custo real, preço de equilíbrio e margem ideal. Calculadora de preços gratuita para empresas de serviços e produtos.",
   },
   nav: {
     logo: "4ratio",
@@ -16,7 +16,7 @@ const pt: Dictionary = {
   hero: {
     headline: "Você provavelmente vende no prejuízo.",
     headlineBold: "Vamos resolver isso.",
-    subheadline: "89% das empresas de serviço não sabem o custo real do que vendem. Trabalham duro, faturam bem, mas a conta não cresce. Parece familiar?",
+    subheadline: "89% das empresas não sabem o custo real do que vendem. Trabalham duro, faturam bem, mas a conta não cresce. Parece familiar?",
     cta: "Calcular Meu Preço Real — Grátis",
     badge: "Grátis. Sem cadastro. 5 minutos.",
     valueProp1: "Custo real detalhado",
