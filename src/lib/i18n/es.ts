@@ -61,8 +61,8 @@ const es: Dictionary = {
     v5Title: "Checklist de Cordura",
     v5Text: "8 preguntas críticas que exponen puntos ciegos en tu precio. Si no marcas todo, tu precio está mal.",
     v5Value: "Las preguntas que tu contador nunca hace",
-    totalValue: "Valor total: $20,000+ MXN",
-    yourPrice: "Tu precio: $0",
+    totalValue: "Gratis. Sin registro.",
+    yourPrice: "",
   },
   objections: {
     title: "¿Todavía lo piensas?",

@@ -61,8 +61,8 @@ const pt: Dictionary = {
     v5Title: "Checklist de Sanidade",
     v5Text: "8 perguntas críticas que expõem pontos cegos na precificação. Se não marcar tudo, seu preço está errado.",
     v5Value: "As perguntas que seu contador nunca faz",
-    totalValue: "Valor total: R$ 4.000+",
-    yourPrice: "Seu preço: R$ 0",
+    totalValue: "Grátis. Sem cadastro.",
+    yourPrice: "",
   },
   objections: {
     title: "Ainda pensando?",

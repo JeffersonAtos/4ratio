@@ -45,8 +45,7 @@ export function ValueStack({ dict }: Props) {
 
         {/* Total */}
         <div className="mt-6 rounded-xl border-2 border-green/30 bg-green/5 p-6 text-center">
-          <p className="text-sm text-t3 line-through">{dict.valueStack.totalValue}</p>
-          <p className="mt-1 text-2xl font-bold text-green">{dict.valueStack.yourPrice}</p>
+          <p className="text-2xl font-bold text-green">{dict.valueStack.totalValue}</p>
         </div>
       </div>
     </section>

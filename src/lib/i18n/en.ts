@@ -59,8 +59,8 @@ const en = {
     v5Title: "Sanity Checklist",
     v5Text: "8 critical questions that expose pricing blind spots. If you can't check all boxes, your price is wrong.",
     v5Value: "The questions your accountant never asks",
-    totalValue: "Total value: $800+",
-    yourPrice: "Your price: $0",
+    totalValue: "Free. No signup.",
+    yourPrice: "",
   },
   objections: {
     title: "Still thinking about it?",
