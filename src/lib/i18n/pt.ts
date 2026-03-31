@@ -31,7 +31,7 @@ const pt: Dictionary = {
     card2Title: "Custos que você não vê",
     card2Text: "Taxas de cartão (3%), inadimplência (2-5%), seu pró-labore (sim, isso é custo), impostos. Não aparecem na nota. Mas comem 20-40% do que você acha que é lucro.",
     card3Title: "Faturamento ≠ Lucro",
-    card3Text: "Você fatura R$ 50 mil/mês e se sente bem. Mas depois dos custos reais? Pode sobrar R$ 4 mil. Ou estar no negativo. A maioria dos donos não sabe qual dos dois.",
+    card3Text: "Você fatura R$ 50 mil/mês e se sente bem. Mas depois dos custos reais? Pode sobrar R$ 4 mil — ou estar no prejuízo. A maioria dos donos não sabe se está lucrando ou perdendo.",
   },
   howItWorks: {
     title: "3 passos. 5 minutos. Seu preço real.",

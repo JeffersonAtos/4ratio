@@ -29,7 +29,7 @@ const en = {
     card2Title: "Costs you can't see",
     card2Text: "Payment fees (3%), bad debt (2-5%), your own salary (yes, that's a cost), taxes. They don't show up on your invoice. But they eat 20-40% of what you think is profit.",
     card3Title: "Revenue ≠ Profit",
-    card3Text: "You bill $10K/month and feel good. But after real costs? You might be making $800. Or losing money. Most business owners have no idea which one.",
+    card3Text: "You bill $10K/month and feel good. But after real costs? You might be making $800 — or losing money. Most owners don't know if they're profiting or bleeding.",
   },
   howItWorks: {
     title: "3 steps. 5 minutes. Your real price.",

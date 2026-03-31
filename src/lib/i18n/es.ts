@@ -31,7 +31,7 @@ const es: Dictionary = {
     card2Title: "Costos que no ves",
     card2Text: "Comisiones de pago (3%), morosidad (2-5%), tu propio salario (sí, eso es un costo), impuestos. No aparecen en tu factura. Pero se comen 20-40% de lo que crees que es ganancia.",
     card3Title: "Facturación ≠ Ganancia",
-    card3Text: "Facturas $100K MXN al mes y te sientes bien. Pero después de los costos reales, pueden quedarte $8K. O estar perdiendo. La mayoría de los dueños no sabe cuál de las dos.",
+    card3Text: "Facturas $100K MXN al mes y te sientes bien. Pero después de los costos reales, pueden quedarte $8K — o estar perdiendo dinero. La mayoría de los dueños no sabe si gana o pierde.",
   },
   howItWorks: {
     title: "3 pasos. 5 minutos. Tu precio real.",
