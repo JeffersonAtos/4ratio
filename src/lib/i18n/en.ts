@@ -139,7 +139,7 @@ const en = {
     badDebt: "Bad debt / Default rate",
     badDebtHelp: "% of invoices that never get paid. (typically 1-5%)",
     desiredMargin: "Desired profit margin",
-    desiredMarginHelp: "The profit you want after all costs. 20-30% is typical for services.",
+    desiredMarginHelp: "The profit you want after all costs. 20-30% is typical for services and products.",
     competitorPrice: "Competitor price (optional)",
     competitorPriceHelp: "For comparison. Leave empty if unknown.",
     sanityIntro: "Before you trust the number, answer honestly:",

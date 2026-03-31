@@ -141,7 +141,7 @@ const pt: Dictionary = {
     badDebt: "Inadimplência",
     badDebtHelp: "% de faturas que nunca são pagas. (tipicamente 1-5%)",
     desiredMargin: "Margem de lucro desejada",
-    desiredMarginHelp: "O lucro que você quer após todos os custos. 20-30% é típico para serviços.",
+    desiredMarginHelp: "O lucro que você quer após todos os custos. 20-30% é típico para serviços e produtos.",
     competitorPrice: "Preço do concorrente (opcional)",
     competitorPriceHelp: "Para comparação. Deixe vazio se não souber.",
     sanityIntro: "Antes de confiar no número, responda honestamente:",

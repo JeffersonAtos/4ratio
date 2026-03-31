@@ -141,7 +141,7 @@ const es: Dictionary = {
     badDebt: "Morosidad / Incobrables",
     badDebtHelp: "% de facturas que nunca se cobran. (típicamente 1-5%)",
     desiredMargin: "Margen de ganancia deseado",
-    desiredMarginHelp: "La ganancia que deseas después de todos los costos. 20-30% es típico para servicios.",
+    desiredMarginHelp: "La ganancia que deseas después de todos los costos. 20-30% es típico para servicios y productos.",
     competitorPrice: "Precio del competidor (opcional)",
     competitorPriceHelp: "Para comparación. Deja vacío si no lo sabes.",
     sanityIntro: "Antes de confiar en el número, responde honestamente:",
