@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #FFFFFF;
+  --surface-1: #F9FAFB;
+  --surface-2: #F3F4F6;
+  --surface-3: #E5E7EB;
+  --border: rgba(0, 0, 0, 0.06);
+  --border-2: rgba(0, 0, 0, 0.12);
+  --text: #111827;
+  --text-2: #4B5563;
+  --text-3: #9CA3AF;
+  --green: #16A34A;
+  --red: #DC2626;
+  --amber: #D97706;
+  --blue: #2563EB;
+  --gold: #B8941F;
+}
+
+:root.dark {
+  --bg: #000000;
+  --surface-1: #0A0A0A;
+  --surface-2: #111111;
+  --surface-3: #1A1A1A;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-2: rgba(255, 255, 255, 0.11);
+  --text: #F4F4F5;
+  --text-2: #A1A1AA;
+  --text-3: #71717A;
+  --green: #22C55E;
+  --red: #EF4444;
+  --amber: #F59E0B;
+  --blue: #3B82F6;
+  --gold: #D4AF37;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-bg: var(--bg);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-border-1: var(--border);
+  --color-border-2: var(--border-2);
+  --color-t: var(--text);
+  --color-t2: var(--text-2);
+  --color-t3: var(--text-3);
+  --color-green: var(--green);
+  --color-red: var(--red);
+  --color-amber: var(--amber);
+  --color-blue: var(--blue);
+  --color-gold: var(--gold);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-geist-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--surface-3);
+  border-radius: 2px;
+}
+
+/* Select options */
+select option {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+/* Input autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 30px var(--surface-2) inset;
+  -webkit-text-fill-color: var(--text);
+  caret-color: var(--text);
+}
+
+/* Dark theme number input spinners */
+.dark input[type="number"]::-webkit-inner-spin-button {
+  filter: invert(1);
 }
