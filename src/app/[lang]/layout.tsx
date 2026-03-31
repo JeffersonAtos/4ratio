@@ -36,7 +36,7 @@ export default async function LangLayout({ children, params }: Props) {
     <>
       <Header lang={validLang} dict={dict} />
       <main className="flex-1">{children}</main>
-      <Footer dict={dict} />
+      <Footer dict={dict} lang={validLang} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

@@ -1,6 +1,7 @@
-import type { Dictionary } from "@/lib/i18n";
+import Link from "next/link";
+import type { Dictionary, Lang } from "@/lib/i18n";
 
-export function Footer({ dict }: { dict: Dictionary }) {
+export function Footer({ dict, lang }: { dict: Dictionary; lang: Lang }) {
   const year = new Date().getFullYear();
 
   return (
@@ -9,7 +10,6 @@ export function Footer({ dict }: { dict: Dictionary }) {
         <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
           <div>
             <p className="text-sm font-semibold text-t">{dict.nav.logo}</p>
-            <p className="mt-1 text-xs text-t3">{dict.footer.tagline}</p>
           </div>
           <div className="flex items-center gap-6 text-xs text-t3">
             <a
@@ -18,8 +18,12 @@ export function Footer({ dict }: { dict: Dictionary }) {
             >
               {dict.footer.feedback}
             </a>
-            <span>{dict.footer.privacy}</span>
-            <span>{dict.footer.terms}</span>
+            <Link
+              href={`/${lang}/privacy`}
+              className="hover:text-t2 transition-colors"
+            >
+              {dict.footer.privacy}
+            </Link>
           </div>
         </div>
         <div className="mt-6 border-t border-border-1 pt-6 flex flex-col items-center gap-2 text-xs text-t3">
